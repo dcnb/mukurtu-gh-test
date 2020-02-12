@@ -1,15 +1,12 @@
-field,display-name,browse-link
-title,Title,
-creator,Creator,
-date,Date Created,
-description,Description,
-subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,
+field,display-name,dc-map,browse-link
+title,Title,DC.title
+summary,Summary
+creator,Creator,DC.creator
+description,Description,DC.description
+subject,Subjects,DC.subject,true
+keywords,Subjects,,,
+location,Location,,true
+latln,Coordinates
+guid,Source Identifier
+community,Community
+format,Format
