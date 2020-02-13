@@ -39,9 +39,9 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but dou
 
 # MAP PAGE
 # see _data/map-config.csv for field display options
-latitude: 28.644800 #to determine center of map
-longitude: 77.216721 #to determine center of map
-zoom-level: 3 # zoom level for map 
+latitude: 45.0015084 #to determine center of map
+longitude: -122.9925959 #to determine center of map
+zoom-level: 16 # zoom level for map 
 map-search: true # not suggested with large collections
 map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
 map-cluster: true # suggested for large collection or with many items in same location
@@ -66,9 +66,9 @@ year-nav-increment: 5 # set increments when auto gen nav years
 # Data 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "guid,title,community,people,summary,subject,contributor,latlng,location,creator,description,item sharing settings,media assets,keywords,protocol,username,guid,provider,title,thumbnail,file,mediasource,protocol,match,format,objectid"
+metadata-export-fields: "title,nid,community,category,latlng,location,creator,date,description,fileformat,identifier,item sharing settings,language,media assets,publisher,rights,source,subjectold,subjects,protocol,original date,username,type,sid,provider,title,image,mediasource,match,format,objectid"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,contributor,location"
+metadata-facets-fields: "subject,creator,location,community,protocol,date,username"
 
 # Advanced Theme Options
 

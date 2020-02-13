@@ -1,12 +1,14 @@
 field,display-name,dc-map,browse-link
 title,Title,DC.title
-summary,Summary
+date,Date
 creator,Creator,DC.creator
 description,Description,DC.description
 subject,Subjects,DC.subject,true
 keywords,Subjects,,,
 location,Location,,true
+publisher,Publisher
 latln,Coordinates
-guid,Source Identifier
+nid,Source Identifier
 community,Community
 format,Format
+rights,Rights

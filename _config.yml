@@ -8,7 +8,7 @@
 # url is your gh-pages base, following the pattern: username.github.io
 url: https://dcnb.github.io
 # baseurl is your github repository's name prefixed with a /
-baseurl: /mukurtu-gh-test
+baseurl: /chalcraft
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder
 
@@ -27,7 +27,7 @@ collection-date: "2019"
 
 # Collection settings
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: ww2csp 
+metadata: chalcraft 
 
 # google services [optional!]
 # leave these blank or comment out to NOT include google code
