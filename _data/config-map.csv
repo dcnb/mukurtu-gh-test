@@ -1,4 +1,5 @@
 field,display,search
-summary,Summary,true
+date,Date,true
+creator,Creator,true
 subject,Subjects,true
 location,Location,true
